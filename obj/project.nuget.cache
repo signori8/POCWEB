@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oe32LSrEgADcUApJyql+9OucoDy7ATRIsBQqf7CTaS2CcOshlDgpGTcd8JEemKRxag54xPIyOYMu1wb9rTuDQQ==",
+  "success": true,
+  "projectFilePath": "D:\\PÓS ARQUITETURA\\TCC\\ExemploWebPages\\POC_WEB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eduardo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

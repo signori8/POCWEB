@@ -1,0 +1,51 @@
+﻿@page
+@model POC_WEB.Pages.PropostaImputModel
+@{
+    ViewData["Title"] = "POC API Gestor de Propostas de Crédito";
+}
+
+<h1>POC API Gestor de Propostas de Crédito</h1>
+<form method="post" class="card p-3">
+    <div class="row">
+        <div asp-validation-summary="All"></div>
+    </div>
+    <div class="form-group mb-0 align-middle">
+        <label>Passo 1: Submeta a proposta</label>                      
+        <div class="input-group">
+          <span class="input-group-text">JSON:</span>
+          <textarea class="form-control" aria-label="JSON" asp-for="proposta.Proposta" rows="10"></textarea>
+        </div>
+        <br/>              
+        <label>Chave de autenticação</label>
+        <input type="text" asp-for="proposta.Chave" class="mr-5">
+        <br/>
+        <button class="btn btn-primary">Enviar</button>
+        <br/>
+        <span class="color:red">@Html.Raw(Model.Message)</span>
+    </div>
+</form>
+<form method="post" enctype="multipart/form-data" class="card p-3">
+    <div class="form-group mb-0 align-middle">
+        <span>Passo 2: Selecione um arquivo para anexar na proposta (documento de identificação) e faça upload</span>
+        <br />
+        <label>Chave de autenticação</label>
+        <input type="text" asp-for="proposta.Chave" class="mr-5">
+        <br />
+        <input type="file" name="File01"/>        
+        <input type="submit" value="Upload" asp-page-handler="Upload" />
+        <br/>
+        <span class="color:red">@Html.Raw(Model.Message2)</span>
+        </div>
+    </form>
+<form method="get" class="card p-3">
+    <div class="form-group mb-0 align-middle">
+     <span>Passo 3: Verifique se o webhook foi chamado pela função serverless</span>
+     <br />
+    <button class="btn btn-primary">Check webhook</button>
+    <span class="color:red">@Html.Raw(Model.Message3)</span>
+    </div>
+</form>
+
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+}

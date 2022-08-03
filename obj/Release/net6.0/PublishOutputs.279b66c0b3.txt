@@ -1,0 +1,8 @@
+D:\PÓS ARQUITETURA\TCC\ExemploWebPages\obj\Release\net6.0\PubTmp\Out\POC_WEB.exe
+D:\PÓS ARQUITETURA\TCC\ExemploWebPages\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\PÓS ARQUITETURA\TCC\ExemploWebPages\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\PÓS ARQUITETURA\TCC\ExemploWebPages\obj\Release\net6.0\PubTmp\Out\POC_WEB.dll
+D:\PÓS ARQUITETURA\TCC\ExemploWebPages\obj\Release\net6.0\PubTmp\Out\POC_WEB.deps.json
+D:\PÓS ARQUITETURA\TCC\ExemploWebPages\obj\Release\net6.0\PubTmp\Out\POC_WEB.runtimeconfig.json
+D:\PÓS ARQUITETURA\TCC\ExemploWebPages\obj\Release\net6.0\PubTmp\Out\POC_WEB.pdb
+D:\PÓS ARQUITETURA\TCC\ExemploWebPages\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
